@@ -1,14 +1,14 @@
-# Manga_Translator (Work in progress)
+# Manga_Translator
 
 This is the model pipeline in our self-designed application--"Mlator", which is aimed to help manga fans and publishers to overcome the language barrie and lower the cost of translation respectively. 
 
 # Workflow
-This example image is from <<Q.E.D. iff - proven end - 11>> Episode 1 © Motohiro Katou.
+This example image is from <<Q.E.D.iff-proven end-11>> Episode 1 © Motohiro Katou.
 
 ## Bubble Detection
 First, train a object detection model that helps us locate the text in the bubble. Here we thanks to ** Manga109** providing us with large amount of high quality annotated dataset.As the following image shows, the identified areas are marked with orange bounding boxes, and content in the box would be processed by the next step.
 
-<img width="747" alt="Screen Shot 2019-05-07 at 12 54 51 AM" src="https://user-images.githubusercontent.com/40588854/57282875-cffbc380-7062-11e9-9e65-bf984f1c04b9.png">
+<img width="749" alt="Screen Shot 2019-05-07 at 12 54 04 AM" src="https://user-images.githubusercontent.com/40588854/57282941-eb66ce80-7062-11e9-8d33-ca6b75878914.png">
 
 ## Optical Character Recognition
 Next we use a state-of-the-art OCR engine to parse the image segment we identified in step 1 into machine-readable text.
@@ -29,5 +29,6 @@ If we simply use the bounding boxes as our translated text background, some of t
 ## Placement
 Finally, the English text is broken up into lines of an appropriate length and resized to comfortably fit their corresponding speech bubble. At this point, the comics are translated and ready for reading!
 
-<img width="749" alt="Screen Shot 2019-05-07 at 12 54 04 AM" src="https://user-images.githubusercontent.com/40588854/57282941-eb66ce80-7062-11e9-8d33-ca6b75878914.png">
+<img width="747" alt="Screen Shot 2019-05-07 at 12 54 51 AM" src="https://user-images.githubusercontent.com/40588854/57282875-cffbc380-7062-11e9-9e65-bf984f1c04b9.png">
 
+# Instructions (Work in progress)
