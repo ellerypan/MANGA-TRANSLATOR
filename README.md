@@ -6,7 +6,7 @@ This is the model pipeline in our self-designed application--"Mlator", which is 
 This example image is from <<Q.E.D.iff-proven end-11>> Episode 1 © Motohiro Katou.
 
 ## Bubble Detection
-First, train a object detection model that helps us locate the text in the bubble. Here we thanks to ** Manga109** providing us with large amount of high quality annotated dataset.As the following image shows, the identified areas are marked with orange bounding boxes, and content in the box would be processed by the next step.
+First, train a object detection model that helps us locate the text in the bubble. Here we thanks to **Manga109** providing us with large amount of high quality annotated dataset.As the following image shows, the identified areas are marked with orange bounding boxes, and content in the box would be processed by the next step.
 
 <img width="749" alt="Screen Shot 2019-05-07 at 12 54 04 AM" src="https://user-images.githubusercontent.com/40588854/57282941-eb66ce80-7062-11e9-8d33-ca6b75878914.png">
 
