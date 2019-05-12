@@ -2,6 +2,9 @@
 
 This is the model pipeline in our self-designed application--"Mlator", which is aimed to help manga fans and publishers to overcome the language barrie and lower the cost of translation respectively. 
 
+# Demo
+https://youtu.be/SuyPbsMslxs
+
 # Workflow
 This example image is from <<Q.E.D.iff-proven end-11>> Episode 1 © Motohiro Katou.
 
