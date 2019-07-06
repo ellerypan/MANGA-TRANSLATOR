@@ -38,29 +38,36 @@ Finally, the English text is broken up into lines of an appropriate length and r
 <img width="747" alt="Screen Shot 2019-05-07 at 12 54 51 AM" src="https://user-images.githubusercontent.com/40588854/57282875-cffbc380-7062-11e9-9e65-bf984f1c04b9.png">
 
 ## Setup for Manga Translator
-
-```
 Instance Type: Ubuntu Server 18.04 LTS (HVM), SSD Volume Type
 Size: >= t2.medium
+Models: https://drive.google.com/drive/folders/1mEvrweffTBs7-wb2WyNQ8wOjoTKVWxCT?usp=sharing
 Command Lines:
-# install conda
+
+
+1. install conda
+```
 wget https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh
 bash Anaconda3-4.2.0-Linux-x86_64.sh
 export PATH=/home/ubuntu/anaconda3/bin:$PATH
 conda update coda
+```
 
-
-# install git and git clone the files
+2. install git and git clone the files
+```
 sudo yum install git
 git config —global credential.helper store
 git clone https://github.com/MSDS698/product-analytics-group7.git
+```
 
-# setup environment
+3. setup environment
+```
 cd product-analytics-group7
 conda env create -f environment.yml
 source activate MSDS603
+```
 
-# setup packages
+4. setup packages
+```
 pip install scikit-image
 pip install opencv-python
 sudo apt update && sudo apt install -y libsm6 libxext6
@@ -68,26 +75,32 @@ pip install pytesseract
 pip install —upgrade google-cloud-translate
 pip install Keras==2.1.4
 pip install tensorflow
+```
 
-# setup tesseract
+5. setup tesseract
+```
 sudo apt-get update
 sudo apt install tesseract-ocr
 sudo apt install libtesseract-dev
 sudo apt install tesseract-ocr-chi-tra-vert
 sudo apt install tesseract-ocr-jpn-vert
-
-# transfer well-trained models: SSD, U-Net and OCR to certain files or download those files from your instance directly
+```
+6. transfer well-trained models: SSD, U-Net and OCR to certain pathes
+```
 cd product-analytics-group7/server/
 mkdir checkpoint
-scp -i msds694_zack.pem ssd300_all.h5 ubuntu@ec2-54-189-3-164.us-west-2.compute.amazonaws.com:product-analytics-group7/server/checkpoint/
+scp -i your.pem ssd300_all.h5 ubuntu@ec2-xx-xxx-x-xxx.us-west-2.compute.amazonaws.com:product-analytics-group7/server/checkpoint/
 
-scp -i msds694_zack.pem unet_8.hdf5 ubuntu@ec2-54-189-3-164.us-west-2.compute.amazonaws.com:product-analytics-group7/server/checkpoint/
+scp -i your.pem unet_8.hdf5 ubuntu@ec2-xx-xxx-x-xxx.us-west-2.compute.amazonaws.com:product-analytics-group7/server/checkpoint/
+```
 
-# if permission denied when you run the following cmd, scp to the Desktop then sudo mv to the target path
-scp -i msds694_zack.pem jpn_vbest.traineddata ubuntu@ec2-54-189-3-164.us-west-2.compute.amazonaws.com:/usr/share/tesseract-ocr/4.00/tessdata
+7. if permission denied when you run the following cmd, scp to the Desktop then sudo mv
+```
+scp -i your.pem jpn_vbest.traineddata ubuntu@ec2-xx-xxx-x-xxx.us-west-2.compute.amazonaws.com:/usr/share/tesseract-ocr/4.00/tessdata
+```
 
-# run the server
+8. run the server
+```
 cd ~
 python product-analytics-group7/server/server.py
 ```
-
