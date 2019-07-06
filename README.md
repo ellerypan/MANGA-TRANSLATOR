@@ -44,7 +44,7 @@ Finally, the English text is broken up into lines of an appropriate length and r
 
 **Size:** >= t2.medium
 
-**Trained Models including SSD, U-Net and OCR:** https://drive.google.com/drive/folders/1mEvrweffTBs7-wb2WyNQ8wOjoTKVWxCT?usp=sharing
+**All models:** https://drive.google.com/drive/folders/1mEvrweffTBs7-wb2WyNQ8wOjoTKVWxCT?usp=sharing
 
 **Command Lines:**
 
