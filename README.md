@@ -1,5 +1,5 @@
 # Manga Translator
-![31562378840_ pic](https://user-images.githubusercontent.com/40588854/60750064-277db900-9f58-11e9-9497-403824861a0f.jpg)
+<img width="600" alt="Screen Shot 2019-07-05 at 7 09 04 PM" src="https://user-images.githubusercontent.com/40588854/60750085-6a3f9100-9f58-11e9-856b-ff86b0368087.png">
 
 This is the model pipeline in our self-designed application--"Mlator", which aims to help manga fans and publishers to overcome the language barrier and lower the cost of translation respectively. 
 
