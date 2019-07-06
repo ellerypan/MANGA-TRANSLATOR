@@ -1,8 +1,7 @@
 # Manga Translator
-
 This is the model pipeline in our self-designed application--"Mlator", which is aimed to help manga fans and publishers to overcome the language barrier and lower the cost of translation respectively. 
 
-## Source Code
+## All Source Code
 https://github.com/MSDS698/product-analytics-group7
 
 ## Demo
@@ -14,7 +13,7 @@ This example image is from <<Q.E.D.iff-proven end-11>> Episode 1 © Motohiro Kat
 ### Bubble Detection
 First, train an object detection model that helps us locate the text in the bubble. Here thanks to **Manga109** providing us with a large amount of high quality annotated dataset. As the following image shows, the identified areas are marked with orange bounding boxes, and content in the box would be processed by the next step.
 
-<img width="749" alt="Screen Shot 2019-05-07 at 12 54 04 AM" src="https://user-images.githubusercontent.com/40588854/57282941-eb66ce80-7062-11e9-8d33-ca6b75878914.png">
+<img width="500" alt="Screen Shot 2019-05-07 at 12 54 04 AM" src="https://user-images.githubusercontent.com/40588854/57282941-eb66ce80-7062-11e9-8d33-ca6b75878914.png">
 
 ### Optical Character Recognition
 Next, we use a state-of-the-art OCR engine to parse the image segment we identified in step 1 into machine-readable text.
@@ -38,9 +37,13 @@ Finally, the English text is broken up into lines of an appropriate length and r
 <img width="747" alt="Screen Shot 2019-05-07 at 12 54 51 AM" src="https://user-images.githubusercontent.com/40588854/57282875-cffbc380-7062-11e9-9e65-bf984f1c04b9.png">
 
 ## Setup for Manga Translator
+
 Instance Type: Ubuntu Server 18.04 LTS (HVM), SSD Volume Type
+
 Size: >= t2.medium
+
 Models: https://drive.google.com/drive/folders/1mEvrweffTBs7-wb2WyNQ8wOjoTKVWxCT?usp=sharing
+
 Command Lines:
 
 
