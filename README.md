@@ -117,7 +117,7 @@ sudo apt install libtesseract-dev
 sudo apt install tesseract-ocr-chi-tra-vert
 sudo apt install tesseract-ocr-jpn-vert
 ```
-6. transfer well-trained models: SSD, U-Net and OCR to certain pathes
+6. transfer well-trained models: SSD, U-Net and OCR to certain paths
 ```
 cd product-analytics-group7/server/
 mkdir checkpoint
