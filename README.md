@@ -47,7 +47,7 @@ Finally, the English text is broken up into lines of an appropriate length and r
 
 <img width="500" alt="Screen Shot 2019-05-07 at 12 54 51 AM" src="https://user-images.githubusercontent.com/40588854/57282875-cffbc380-7062-11e9-9e65-bf984f1c04b9.png">
 
-## Setup for Manga Translator
+## Deploy on Website
 
 
 **Instance Type:** Ubuntu Server 18.04 LTS (HVM), SSD Volume Type
