@@ -1,5 +1,4 @@
 # Manga Translator
-<img width="600" alt="Screen Shot 2019-07-05 at 7 09 04 PM" src="https://user-images.githubusercontent.com/40588854/60750085-6a3f9100-9f58-11e9-856b-ff86b0368087.png">
 
 This is the model pipeline in our self-designed application--"Mlator", which aims to help manga fans and publishers to overcome the language barrier and lower the cost of translation respectively. 
 
@@ -27,9 +26,9 @@ This example image is from <<Q.E.D.iff-proven end-11>> Episode 1 © Motohiro Kat
 
 ### Bubble Detection
 First, train an object detection model that helps us locate the text in the bubble. Here thanks to **Manga109** providing us with a large amount of high quality annotated dataset. As the following image shows, the identified areas are marked with orange bounding boxes, and content in the box would be processed by the next step.
-
+<p align="center">
 <img width="500" alt="Screen Shot 2019-05-07 at 12 54 04 AM" src="https://user-images.githubusercontent.com/40588854/57282941-eb66ce80-7062-11e9-8d33-ca6b75878914.png">
-
+</p>
 ### Optical Character Recognition
 Next, we use a state-of-the-art OCR engine to parse the image segment we identified in step 1 into machine-readable text.
 Besides, a few tricks are needed to help the model parse vertically-oriented Japanese text and stylized comic fonts.
