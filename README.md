@@ -2,6 +2,9 @@
 
 This is the model pipeline in our self-designed application--"Mlator", which is aimed to help manga fans and publishers to overcome the language barrier and lower the cost of translation respectively. 
 
+# Source Code
+https://github.com/MSDS698/product-analytics-group7
+
 # Demo
 https://youtu.be/SuyPbsMslxs
 
