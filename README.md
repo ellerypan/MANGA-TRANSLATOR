@@ -1,4 +1,6 @@
 # Manga Translator
+![31562378840_ pic](https://user-images.githubusercontent.com/40588854/60750064-277db900-9f58-11e9-9497-403824861a0f.jpg)
+
 This is the model pipeline in our self-designed application--"Mlator", which aims to help manga fans and publishers to overcome the language barrier and lower the cost of translation respectively. 
 
 ## Website
@@ -7,9 +9,11 @@ http://mlator.com/
 **Two Main Functions:**
 
 I) Drag your page to the DEMO region at the bottom and the result will show on the right side
+
 <img width="600" alt="Screen Shot 2019-07-05 at 6 45 54 PM" src="https://user-images.githubusercontent.com/40588854/60749857-27c88500-9f55-11e9-9a24-08dc8fe04169.png">
 
 II) After you register and log in, you can translate multiple pages and download the translations at the same time
+
 <img width="600" alt="Screen Shot 2019-07-05 at 6 43 44 PM" src="https://user-images.githubusercontent.com/40588854/60749852-09628980-9f55-11e9-8c1c-1ddeb4c24ed9.png">
 
 ## Source Code
