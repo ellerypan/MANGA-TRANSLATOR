@@ -38,13 +38,17 @@ Finally, the English text is broken up into lines of an appropriate length and r
 
 ## Setup for Manga Translator
 
-AWS Instance Type: Ubuntu Server 18.04 LTS (HVM), SSD Volume Type
+## Steps to setup
 
-Size: >= t2.medium
+**Instance Type: Ubuntu Server 18.04 LTS (HVM), SSD Volume Type**
 
-Models: https://drive.google.com/drive/folders/1mEvrweffTBs7-wb2WyNQ8wOjoTKVWxCT?usp=sharing
+**Size: >= t2.medium**
 
-Command Lines:
+**Trained Models including SSD, U-Net and OCR:**
+
+https://drive.google.com/drive/folders/1mEvrweffTBs7-wb2WyNQ8wOjoTKVWxCT?usp=sharing
+
+**Command Lines:**
 
 
 1. install conda
@@ -95,14 +99,12 @@ mkdir checkpoint
 scp -i your.pem ssd300_all.h5 ubuntu@ec2-xx-xxx-x-xxx.us-west-2.compute.amazonaws.com:product-analytics-group7/server/checkpoint/
 
 scp -i your.pem unet_8.hdf5 ubuntu@ec2-xx-xxx-x-xxx.us-west-2.compute.amazonaws.com:product-analytics-group7/server/checkpoint/
-```
 
-7. if permission denied when you run the following cmd, scp to the Desktop then sudo mv
-```
+# if permission denied when you run the following cmd, scp to the Desktop then sudo mv
 scp -i your.pem jpn_vbest.traineddata ubuntu@ec2-xx-xxx-x-xxx.us-west-2.compute.amazonaws.com:/usr/share/tesseract-ocr/4.00/tessdata
 ```
 
-8. run the server
+7. run the server
 ```
 cd ~
 python product-analytics-group7/server/server.py
