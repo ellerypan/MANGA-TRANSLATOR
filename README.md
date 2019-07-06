@@ -9,7 +9,9 @@ http://mlator.com/
 
 I) Drag your page to the DEMO region at the bottom and the result will show on the right side
 
+<p align="center">
 <img width="600" alt="Screen Shot 2019-07-05 at 6 45 54 PM" src="https://user-images.githubusercontent.com/40588854/60749857-27c88500-9f55-11e9-9a24-08dc8fe04169.png">
+</p>
 
 II) After you register and log in, you can translate multiple pages and download the translations at the same time
 
