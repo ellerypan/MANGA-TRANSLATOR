@@ -38,13 +38,12 @@ Finally, the English text is broken up into lines of an appropriate length and r
 
 ## Setup for Manga Translator
 
-## Steps to setup
 
 **Instance Type:** Ubuntu Server 18.04 LTS (HVM), SSD Volume Type
 
 **Size:** >= t2.medium
 
-**All models:** https://drive.google.com/drive/folders/1mEvrweffTBs7-wb2WyNQ8wOjoTKVWxCT?usp=sharing
+**Models:** https://drive.google.com/drive/folders/1mEvrweffTBs7-wb2WyNQ8wOjoTKVWxCT?usp=sharing
 
 **Command Lines:**
 
