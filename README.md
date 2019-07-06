@@ -40,13 +40,11 @@ Finally, the English text is broken up into lines of an appropriate length and r
 
 ## Steps to setup
 
-**Instance Type: Ubuntu Server 18.04 LTS (HVM), SSD Volume Type**
+**Instance Type:** Ubuntu Server 18.04 LTS (HVM), SSD Volume Type
 
-**Size: >= t2.medium**
+**Size:** >= t2.medium
 
-**Trained Models including SSD, U-Net and OCR:**
-
-https://drive.google.com/drive/folders/1mEvrweffTBs7-wb2WyNQ8wOjoTKVWxCT?usp=sharing
+**Trained Models including SSD, U-Net and OCR:** https://drive.google.com/drive/folders/1mEvrweffTBs7-wb2WyNQ8wOjoTKVWxCT?usp=sharing
 
 **Command Lines:**
 
