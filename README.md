@@ -5,11 +5,12 @@ This is the model pipeline in our self-designed application--"Mlator", which aim
 http://mlator.com/
 
 **Two Main Functions:**
-I) Drag your clear page of mange you want to translate to the demo region at the bottom and the result will show on the right
-<img width="800" alt="Screen Shot 2019-07-05 at 6 45 54 PM" src="https://user-images.githubusercontent.com/40588854/60749857-27c88500-9f55-11e9-9a24-08dc8fe04169.png">
 
-II) After you register and log in, you can translate multiple pages and download them at the same time
-<img width="1000" alt="Screen Shot 2019-07-05 at 6 43 44 PM" src="https://user-images.githubusercontent.com/40588854/60749852-09628980-9f55-11e9-8c1c-1ddeb4c24ed9.png">
+I) Drag your page to the DEMO region at the bottom and the result will show on the right side
+<img width="600" alt="Screen Shot 2019-07-05 at 6 45 54 PM" src="https://user-images.githubusercontent.com/40588854/60749857-27c88500-9f55-11e9-9a24-08dc8fe04169.png">
+
+II) After you register and log in, you can translate multiple pages and download the translations at the same time
+<img width="600" alt="Screen Shot 2019-07-05 at 6 43 44 PM" src="https://user-images.githubusercontent.com/40588854/60749852-09628980-9f55-11e9-8c1c-1ddeb4c24ed9.png">
 
 ## Source Code
 https://github.com/MSDS698/product-analytics-group7
